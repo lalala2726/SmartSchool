@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeActivity">
+
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.zhangchuang.smartschool.home.HomeActivity"
+        android:label="主页"
+        tools:layout="@layout/activity_home" />
+    <activity
+        android:id="@+id/applicationActivity"
+        android:name="com.zhangchuang.smartschool.application.ApplicationActivity"
+        android:label="全部应用"
+        tools:layout="@layout/activity_application" />
+    <activity
+        android:id="@+id/chartActivity"
+        android:name="com.zhangchuang.smartschool.chart.ChartActivity"
+        android:label="数据统计"
+        tools:layout="@layout/activity_chatart" />
+    <activity
+        android:id="@+id/personalActivity"
+        android:name="com.zhangchuang.smartschool.personal.PersonalActivity"
+        android:label="个人中心"
+        tools:layout="@layout/activity_personal" />
+</navigation>
